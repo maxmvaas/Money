@@ -21,3 +21,5 @@
         <img src="https://i.imgur.com/b4tO4dD.jpg" />
 </details>
 
+[<b>Видео-обзор</b>](https://youtu.be/a5jUhclThb4)
+
