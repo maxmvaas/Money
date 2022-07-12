@@ -18,4 +18,5 @@
         ![Imgur](https://i.imgur.com/bXH7wWM.jpg)
         ![Imgur](https://i.imgur.com/k6HB13g.jpg)
         ![Imgur](https://i.imgur.com/b4tO4dD.jpg)
+    <img src="[relative/path/in/repository/to/image.svg](https://i.imgur.com/b4tO4dD.jpg)" width="128"/>
 </details>
