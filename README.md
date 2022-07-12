@@ -4,7 +4,7 @@
 При скачивании, данные кэшируются в локальную базу данных и при следующем обновлении экрана или перезаходите в приложение, будут браться из локальной базы данных.
 К тому же, в приложении были добавлены Unit-тесты на часть функционала. 
 
-Использованные технологии: JUnit, Google Navigation Component, Retrofit, Koin, Room, Coroutines. Для разработки использован подход Single Activity. 
+<b>Использованные технологии:</b> JUnit, Google Navigation Component, Retrofit, Koin, Room, Coroutines. Для разработки использован подход Single Activity. 
 
 <details>
 <summary><b>Скриншоты</b></summary>
