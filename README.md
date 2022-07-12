@@ -8,15 +8,14 @@
 <details>
 <summary><b>Скриншоты</b></summary>
     	<br>1. Главный экран приложения:
-        ![Imgur](https://i.imgur.com/vibo7mk.jpg)
+        <img src="https://i.imgur.com/vibo7mk.jpg" />
         <br>2. Экран ошибки:
-        ![Imgur](https://i.imgur.com/SaILIRS.jpg)
+        <img src="https://i.imgur.com/SaILIRS.jpg" />
         <br>3. Выбор даты, на которую необходимо получить списиок курсов валют:
-        ![Imgur](https://i.imgur.com/dmx7Vow.jpg)
+        <img src="https://i.imgur.com/dmx7Vow.jpg" />
         <br>4. Экран конвертирования валют:
-        ![alt text](http://i.imgur.com/IfuLLgn.jpg)
-        ![Imgur](https://i.imgur.com/bXH7wWM.jpg)
-        ![Imgur](https://i.imgur.com/k6HB13g.jpg)
-        ![Imgur](https://i.imgur.com/b4tO4dD.jpg)
-    <img src="https://i.imgur.com/b4tO4dD.jpg" width="128"/>
+        <img src="http://i.imgur.com/IfuLLgn.jpg" />
+        <img src="https://i.imgur.com/bXH7wWM.jpg" />
+        <img src="https://i.imgur.com/k6HB13g.jpg" />
+        <img src="https://i.imgur.com/b4tO4dD.jpg" />
 </details>
