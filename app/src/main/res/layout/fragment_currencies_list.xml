@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Валюты"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+    <TextView
+        android:id="@+id/textView_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/date_label_margin_start"
+        android:layout_marginTop="@dimen/date_label_margin_top"
+        android:text="@string/date_label"
+        android:textColor="@color/text_view_date_label_text_color"
+        android:textSize="12sp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edt_text_date_margin_horizontal"
+        android:backgroundTint="@color/main_color"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:paddingHorizontal="@dimen/edit_text_date_padding_horizontal"
+        android:paddingBottom="@dimen/edit_text_date_padding_bottom"
+        android:textColorHint="@color/edit_text_date_text_color_hint"
+        android:textSize="16sp"
+        tools:hint="18 марта 2022 г." />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_currencies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/recycler_view_currencies_margin_start"
+            android:layout_marginTop="@dimen/recycler_view_currencies_margin_top"
+            android:layout_marginEnd="@dimen/recycler_view_currencies_margin_end"
+            android:paddingBottom="@dimen/recycler_view_currencies_padding_bottom"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            app:spanCount="3"
+            tools:listitem="@layout/item_currency" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/textView_error_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="40dp"
+            android:fontFamily="@font/sf_bold"
+            android:textColor="@color/main_color"
+            android:textSize="30sp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

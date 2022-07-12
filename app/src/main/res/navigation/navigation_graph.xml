@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/currenciesListFragment">
+
+    <fragment
+        android:id="@+id/currenciesListFragment"
+        android:name="ru.maxmvaas.money.presentation.currencies_list.CurrenciesListFragment"
+        android:label="fragment_currencies_list"
+        tools:layout="@layout/fragment_currencies_list">
+        <action
+            android:id="@+id/action_currenciesListFragment_to_convertationFragment"
+            app:destination="@id/convertationFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/convertationFragment"
+        android:name="ru.maxmvaas.money.presentation.convertation.ConvertationFragment"
+        android:label="fragment_convertation"
+        tools:layout="@layout/fragment_convertation">
+        <action
+            android:id="@+id/action_convertationFragment_to_currenciesListFragment"
+            app:destination="@id/currenciesListFragment" />
+        <argument
+            android:name="current_currency"
+            app:argType="ru.maxmvaas.money.data.model.Currency" />
+    </fragment>
+
+</navigation>

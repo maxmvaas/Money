@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Money</string>
+    <string name="date_label">Дата</string>
+    <string name="rate_format">%.2f ₽</string>
+    <string name="default_error_msg">Возникла какая-то ошибка! Пожалуйста, попробуйте ещё раз.</string>
+    <string name="rate_label">Курс</string>
+    <string name="zero">0</string>
+    <string name="rub">RUB</string>
+    <string name="convertation_rate_format">%s ₽</string>
+</resources>

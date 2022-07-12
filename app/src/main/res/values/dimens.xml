@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_label_margin_start">32dp</dimen>
+    <dimen name="date_label_margin_top">24dp</dimen>
+    <dimen name="edt_text_date_margin_horizontal">16dp</dimen>
+    <dimen name="edit_text_date_padding_horizontal">16dp</dimen>
+    <dimen name="edit_text_date_padding_bottom">16dp</dimen>
+    <dimen name="item_currency_bg_radius">12dp</dimen>
+    <dimen name="item_currency_padding">21dp</dimen>
+    <dimen name="item_currency_rate_margin_top">5dp</dimen>
+    <dimen name="recycler_view_currencies_margin_start">8dp</dimen>
+    <dimen name="recycler_view_currencies_margin_top">20dp</dimen>
+    <dimen name="recycler_view_currencies_margin_end">16dp</dimen>
+    <dimen name="recycler_view_currencies_padding_bottom">20dp</dimen>
+    <dimen name="item_currency_margin_start">8dp</dimen>
+    <dimen name="item_currency_margin_top">8dp</dimen>
+    <dimen name="convertation_fragment_header_margin_horizontal">16dp</dimen>
+    <dimen name="convertation_fragment_header_margin_top">20dp</dimen>
+    <dimen name="text_view_rate_label_margin_top">6dp</dimen>
+    <dimen name="text_view_rate_margin_top">4dp</dimen>
+    <dimen name="convertation_container_margin_top">20dp</dimen>
+    <dimen name="convertation_container_margin_horizontal">16dp</dimen>
+    <dimen name="textInputLayout_convertation_to_rubles_margin_top">20dp</dimen>
+</resources>
